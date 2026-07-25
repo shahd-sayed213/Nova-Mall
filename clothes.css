@@ -17,6 +17,7 @@
     border-radius: 8px;
     min-width: 160px;
     z-index: 1000;
+
 }
 
 .drop-menu li a {
@@ -486,7 +487,7 @@ section > div:first-child {
     }
 
 
-  footer {
+ .footer {
       display: flex;
       flex-direction: row;
       justify-content: space-between;
@@ -522,6 +523,9 @@ section > div:first-child {
       justify-content: center;
       margin-right: 0;
   }
+.icons{
+    display: none !important;
+}
 
     
 img {
@@ -535,7 +539,7 @@ img {
 @media (max-width:768px) {
 
     .dropdown-menu {
-        display: none;
+        display: none !important;
     }
 
     .dropdown:focus-within .dropdown-menu {
