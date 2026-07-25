@@ -325,7 +325,7 @@ body {
     display: flex;
     text-align: end;
     text-align: center;
-    padding-left: 65px;
+    padding-left: 0;
 }
 #social-foot a {
     text-decoration: none;
@@ -333,7 +333,7 @@ body {
     display: flex;
     align-items: center;
     gap: 2px;
-    padding-left: 25px;
+    padding-left: 0;
 }
 #social-foot a i {
     font-size: 18px;
@@ -523,14 +523,14 @@ from {
 }
 
 .footer h3 {
-    font-size: 19px;
+    font-size: 18px;
     margin-bottom: 10px;
 }
 
 .footer ul li a,
 .footer p,
 .footer a {
-    font-size: 16px;
+    font-size: 15px;
 }
 
 #contact-foot,
@@ -541,7 +541,7 @@ from {
 
 #social-foot a {
     justify-content: center;
-    margin-right: 28px;
+    margin-right: 0;
 }
 
 
