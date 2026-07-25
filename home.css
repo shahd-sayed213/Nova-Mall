@@ -363,7 +363,7 @@ body {
     justify-content: center;
 }
     .search input {
-    width: 220px;
+    width: 200px;
     padding: 8px 10px;
     border: 2px solid #000000;
     border-radius: 5px;
@@ -537,6 +537,7 @@ from {
 
 #social-foot a {
     justify-content: center;
+    padding-right: 15px;
 }
 
 
