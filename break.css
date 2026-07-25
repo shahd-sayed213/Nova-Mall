@@ -1,0 +1,741 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    text-transform: capitalize;
+    color:rgb(0, 0, 0);
+}
+body{
+    background-color: #fff2def5;
+}
+.back{
+    background-image:url(homep/الهوم.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.header{
+    margin: 20px;
+    display: inline-block;
+    font-size: 25px;
+    width: fit-content;
+    color: white;
+    font-family: "Pacifico", cursive;
+}
+#list{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50px;
+    right: 114px;
+    transition: .5s;
+}
+#list:hover{
+    scale: 1.1;
+}
+#i{
+    font-size: 30px;
+    margin-right: 15px;
+    color: white;
+}
+.nav{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.nav ul{
+    list-style: none;
+    z-index: 3;
+}
+.nav ul li{
+    color: inherit;
+    margin: 15px;
+    backdrop-filter: blur(20px);
+    border: 1px #878787 solid;
+    padding: 7px;
+    border-radius: 10px;
+    transition: .5s;
+    text-align: center;
+    right: 5%;
+    width: 100px;
+      font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: italic;
+}
+.nav ul li:hover {
+    scale: 1.2;
+}
+.nav ul li a{
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+.hbreak{
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: italic;
+  font-size:50px;
+  text-shadow: 0 5px 5px black;
+}
+.breakbody{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 5px;
+}
+.back1{
+    background-image: url(breakp/backbreak.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center
+}
+.c1{
+    border: solid black 1px;
+    height: fit-content;
+    margin:10px 10px;
+    border-radius: 10px;
+    background-color: #fdf8f3;
+}
+.p2{
+    background-image: url(breakp/بتنجان\ مقلى.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p3{
+    background-image: url(breakp/بطاطس\ مسلوقه.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p4{
+    background-image: url(breakp/بطاطس\ مقليه.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p5{
+    background-image: url(breakp/بيض\ بالبسطرمه.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p6{
+    background-image: url(breakp/بيض\ عيون.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p7{
+    background-image: url(breakp/بيض\ مسلوق.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p8{
+    background-image: url(breakp/تشوكلت.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p9{
+    background-image: url(breakp/توست.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p10{
+    background-image: url(breakp/جبنه\ رومى.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p11{
+    background-image: url(breakp/جبنه\ قديمه.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p12{
+    background-image: url(breakp/جرجير.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p13{
+    background-image: url(breakp/خسخس.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p14{
+    background-image: url(breakp/خيار.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p15{
+    background-image: url(breakp/دبس.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p16{
+    background-image: url(breakp/زبده.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p17{
+    background-image: url(breakp/سلطه\ طحينه.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p18{
+    background-image: url(breakp/سلطه.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p19{
+    background-image: url(breakp/شكشوكه.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p20{
+    background-image: url(breakp/طحينه.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p21{
+    background-image: url(breakp/طعميه2.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p22{
+    background-image: url(breakp/طماطم.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p23{
+    background-image: url(breakp/عسل\ ابيض.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p24{
+    background-image: url(breakp/عسل\ اسود.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p25{
+    background-image: url(breakp/عيش\ ابيض.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p26{
+    background-image: url(breakp/عيش\ بلدى.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p27{
+    background-image: url(breakp/عيش\ فرنسي.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p28{
+    background-image: url(breakp/عيش\ فينو.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p29{
+    background-image: url(breakp/فطير\ بالجبنه.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p30{
+    background-image: url(breakp/فطير.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width:160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p31{
+    background-image: url(breakp/فول\ اسكندرانى.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p32{
+    background-image: url(breakp/فول\ بالطحينه.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p33{
+    background-image: url(breakp/فول\ ساده.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p34{
+    background-image: url(breakp/قرص.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p35{
+    background-image: url(breakp/قشطه.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p36{
+    background-image: url(breakp/كرواسون.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p37{
+    background-image: url(breakp/لانشون.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p38{
+    background-image: url(breakp/لبنه.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p39{
+    background-image: url(breakp/لفت\ مخلل.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p40{
+    background-image: url(breakp/مخلل\ بنجر.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p41{
+    background-image: url(breakp/مخلل\ جزر.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p42{
+    background-image: url(breakp/مخلل\ خيار.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p43{
+    background-image: url(breakp/مخلل\ زيتون.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p44{
+    background-image: url(breakp/مخلل\ فلفل.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p45{
+    background-image: url(breakp/مربى\ تفاح.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p46{
+    background-image: url(breakp/مربى\ تين.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p47{
+    background-image: url(breakp/مربى\ فراوله.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p48{
+    background-image: url(breakp/مربى\ مشمش.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.b1,.b2{
+
+    text-align: center;
+}
+.linebreak{
+    text-align: center;
+    font-size: 20px;
+    margin: 10px;
+}
+input{
+    border-radius: 10px;
+    height: 20px;
+    width: 50px;
+    margin: 10px;
+}
+button{
+    border-radius: 10px;
+    height: 25px;
+    width: 50px;
+    margin: 10px;
+    transition: .5s;
+    margin-right: 25px;
+}
+button:hover{
+    background-color: black;
+    color: white;
+    scale: 1.09;
+}
+form{
+    display: flex;
+    flex-direction:row-reverse;
+    margin-left: auto;
+    margin-right:auto ;
+}
+#breakcard{
+    transition: .5s;
+}
+#breakcard:hover{
+    scale: 1.07;
+    box-shadow: 0 8px 20px black;
+}
+.st{
+    text-align: center;
+    margin-bottom: 5px;
+}
+@media (max-width:768px){
+    .header , #i{
+        font-size: 15px;
+    }
+    #list{
+        position: absolute;
+        right: 85px;
+    }
+    #list{
+        font-size: 10px;
+    }
+    .nav ul li a{
+        font-size: 15px;
+    }
+    .nav ul li{
+        width: 70px;
+        height: fit-content;
+    }
+    .hbreak{
+        font-size: 30px;
+    }
+    .linebreak{
+        font-size: 12px;
+    }
+}
+.footer {
+    background-color: #d8b18a;
+    margin-top: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px 30px;
+    text-align: center;
+}
+.footer ul {
+    list-style: none;
+    margin: 0;
+}
+.footer ul li a {
+    text-decoration: none;
+    color: #4e352d;
+}
+.footer a:hover {
+    color: #be5b40e3;
+    padding-left: 10px;
+}
+.footer div {
+    display: flex;
+    flex-direction: column;
+}
+#contact-foot {
+    display: flex;
+    text-align: center;
+}
+#contact-foot p {
+    display: block;
+    margin: 0 0 5px 0;
+}
+#social-foot {
+    display: flex;
+    text-align: end;
+    text-align: center;
+}
+#social-foot a {
+    text-decoration: none;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+#social-foot a i {
+    font-size: 18px;
+    width: 25px;
+    text-align: center;
+    display: inline-block;
+}

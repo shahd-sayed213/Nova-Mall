@@ -1,0 +1,326 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    text-transform: capitalize;
+    color: white;
+}
+body{
+    background-color: #fff2def5;
+}
+.picbody{
+    background-image: url(back/backgroundpet.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    object-fit: cover;
+}
+.header{
+  font-size: 30px;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  padding: 10px;
+}
+.nav ul{
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+}
+.nav ul li{
+    margin: 5px;
+    list-style: none;
+    border: 1px black solid;
+    width: 100px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    height: fit-content;
+    text-align: center;
+    transition: .5s;
+}
+.nav ul li:hover,.li:hover{
+    scale: 1.1;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: inherit;
+    font-size: 20px;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+}
+.li{
+    margin: 5px;
+    list-style: none;
+    border: 1px black solid;
+    width: 100px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    height: fit-content;
+    text-align: center;
+    transition: .5s;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.li a{
+    text-decoration: none;
+    color: inherit;
+    font-size: 20px;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+}
+.p1,.p2{
+    font-size: 20px;
+    margin: 10px;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+}
+.p1{
+    top:200px;
+    animation: p1 forwards 1s ease;
+    font-size: 25px;
+    animation-delay: 1s;
+    opacity: 0;
+}
+@keyframes p1 {
+    from{
+        transform: translatey(100px);
+        opacity: 0;
+    }
+    to{
+        transform: translatey(250px);
+        opacity: 1;
+    }
+}
+.p2{
+    top: 300px;
+    animation: p2 forwards 1s ease;
+    animation-delay: 3s;
+    opacity: 0;
+}
+@keyframes p2 {
+    from{
+        transform: translatey(100px);
+        opacity: 0;
+    }
+    to{
+        transform: translatey(270px);
+        opacity: 1;
+    }
+}
+.cate{
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 10px;
+    transform: translatey(320px);
+    margin: 10px;
+   font-family: "Playfair Display", serif;
+   font-optical-sizing: auto;
+   font-weight:weight;
+   font-style: italic;
+   color: #6f4e37;
+}
+.piccat{
+    background-image: url(back/backcats.jpg);
+    height: 180px;
+    width: 230px;
+    margin: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+.picdog{
+    background-image: url(back/backdog.jpg);
+    height: 180px;
+    width: 230px;
+    margin: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+.picbird{
+    background-image: url(back/backbirds.jpg);
+    height: 180px;
+    width: 230px;
+    margin: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+.picfish{
+    background-image: url(back/backfish.jpg);
+    height: 180px;
+    width: 230px;
+    margin: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+.picpet{
+    background-image: url(back/backsmallpets.jpg);
+    height: 180px;
+    width: 230px;
+    margin: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+#c{
+    transition: .5s;
+}
+#c:hover{
+    scale: 1.02;
+    box-shadow: 5px 5px 7px  #6f4e37;
+}
+.cards .c1,.c2,.c3,.c4,.c5{
+    width: 250px;
+    height: 330px;
+    border: 1px black solid;
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    transform: translatey(320px);
+    margin: 10px;
+    padding: 10px;
+    background-color: #fdf8f3;
+    display: flex;
+    flex-direction: column;
+}
+.p3,.p4,.p5,.p6,.p7{
+    text-align: center;
+    font-size: 19px;
+    margin-top:10px ;
+    color: #6f4e37;
+}
+.button {
+   background-color: transparent;
+   padding: 5px;
+   border: 1px solid #6f4e37;
+   border-radius: 10px;
+   text-align: center;
+   margin: 10px;
+   transition: .5s;
+}
+.button:hover{
+    scale: 1.04;
+    background-color: #fff2def5;
+}
+.button a{
+    text-decoration: none;
+    color: #6f4e37;
+
+}
+@media (max-width:768px) {
+    .header{
+  font-size: 30px;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  padding: 10px;
+}
+.nav ul{
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.nav ul li{
+    margin: 5px;
+    list-style: none;
+    border: 1px black solid;
+    width: 100px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    height: fit-content;
+    text-align: center;
+    transition: .5s;
+}
+.nav ul li:hover,.li:hover{
+    scale: 1.1;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: inherit;
+    font-size: 13px;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+}
+.li{
+    margin: 5px;
+    list-style: none;
+    border: 1px black solid;
+    width: 100px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    height: fit-content;
+    text-align: center;
+    transition: .5s;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.li a{
+    text-decoration: none;
+    color: inherit;
+    font-size: 13px;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+}
+.p1,.p2{
+    font-size: 15px;
+    margin: 10px;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+}
+.p1{
+    top:200px;
+    animation: p1 forwards 1s ease;
+    font-size: 20px;
+    animation-delay: 1s;
+    opacity: 0;
+}
+@keyframes p1 {
+    from{
+        transform: translatey(100px);
+        opacity: 0;
+    }
+    to{
+        transform: translatey(250px);
+        opacity: 1;
+    }
+}
+.p2{
+    top: 300px;
+    animation: p2 forwards 1s ease;
+    animation-delay: 3s;
+    opacity: 0;
+}
+@keyframes p2 {
+    from{
+        transform: translatey(100px);
+        opacity: 0;
+    }
+    to{
+        transform: translatey(270px);
+        opacity: 1;
+    }
+}
+}

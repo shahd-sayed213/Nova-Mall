@@ -1,0 +1,1998 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    text-transform: capitalize;
+    color:rgb(0, 0, 0);
+}
+body{
+    background-color: #fff2def5;
+}
+.backd{
+    background-image:url(drinks2/drinkback.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.header{
+    margin: 20px;
+    display: inline-block;
+    font-size: 25px;
+    width: fit-content;
+    color: white;
+    font-family: "Pacifico", cursive;
+}
+#list{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50px;
+    right: 114px;
+    transition: .5s;
+}
+#list:hover{
+    scale: 1.1;
+}
+#i{
+    font-size: 30px;
+    margin-right: 15px;
+    color: white;
+}
+.nav{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.nav ul{
+    list-style: none;
+    z-index: 3;
+}
+.nav ul li{
+    color: inherit;
+    margin: 15px;
+    backdrop-filter: blur(20px);
+    border: 1px #878787 solid;
+    padding: 7px;
+    border-radius: 10px;
+    transition: .5s;
+    text-align: center;
+    right: 5%;
+    width: 100px;
+    font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: italic;
+}
+.nav ul li:hover {
+    scale: 1.2;
+}
+.nav ul li a{
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}  
+.linebreak{
+    text-align: center;
+}
+.hbreak{
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: italic;
+  font-size:50px;
+  text-shadow: 0 5px 5px black;
+}
+.breakbody{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 5px;
+}
+.c1{
+    border: solid black 1px;
+    height: fit-content;
+    margin:10px 10px;
+    border-radius: 10px;
+    background-color: #fdf8f3;
+}
+.p2{
+    background-image: url(drinks2/شاى/شاى\ احمر.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p3{
+    background-image: url(drinks2/شاى/شاى\ اخضر.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p4{
+    background-image: url(drinks2/شاى/شاى\ اخضر\ بالنعناع.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p6{
+    background-image: url(drinks2/شاى/شاى\ ايس\ تى\ توت.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p7{
+    background-image: url(drinks2/شاى/شاى\ ايس\ تى\ خوخ.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p8{
+    background-image: url(drinks2/شاى/شاى\ ايس\ تى\ رمان.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p9{
+    background-image: url(drinks2/شاى/شاى\ ايس\ تى\ ليمون.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p10{
+    background-image: url(drinks2/شاى/شاى\ ايس\ تى\ مانجو.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p11{
+    background-image: url(drinks2/شاى/شاى\ بابونج.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p12{
+    background-image: url(drinks2/شاى/شاى\ بالليمون.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p13{
+    background-image: url(drinks2/شاى/شاى\ بلبن.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p14{
+    background-image: url(drinks2/شاى/شاى\ تفاح\ بالقرفه.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p15{
+    background-image: url(drinks2/شاى/شاى\ توت.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p16{
+    background-image: url(drinks2/شاى/شاى\ حلبه.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p17{
+    background-image: url(drinks2/شاى/شاى\ خوخ.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p18{
+    background-image: url(drinks2/شاى/شاى\ زنجبيل\ بالليمون.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p19{
+    background-image: url(drinks2/شاى/شاى\ زنجبيل.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p20{
+    background-image: url(drinks2/شاى/شاى\ شمر.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p21{
+    background-image: url(drinks2/شاى/شاى\ قرفه.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p22{
+    background-image: url(drinks2/شاى/شاى\ كراويه.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p24{
+    background-image: url(drinks2/شاى/شاى\ كرك.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p25{
+    background-image: url(drinks2/شاى/شاى\ كركديه.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p26{
+    background-image: url(drinks2/شاى/شاى\ كشرى.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p27{
+    background-image: url(drinks2/شاى/شاى\ مرمريه.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p28{
+    background-image: url(drinks2/شاى/شاى\ نعناع.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p29{
+    background-image: url(drinks2/شاى/شاى\ نعناع\ فريش.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p30{
+    background-image: url(drinks2/شاى/شاى\ ياسمين.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p31{
+    background-image: url(drinks2/شاى/شاى\ ينسون.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p32{
+    background-image: url(drinks1/قهوه/قهوره\ ريستريتو.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p33{
+    background-image: url(drinks1/قهوه/قهوه\ اسبريسو\ دبل.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p34{
+    background-image: url(drinks1/قهوه/قهوه\ اسبريسو\ سنجل.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p35{
+    background-image: url(drinks1/قهوه/قهوه\ افوجاتو.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p36{
+    background-image: url(drinks1/قهوه/قهوه\ امريكانو.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p37{
+    background-image: url(drinks1/قهوه/قهوه\ بندق.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p38{
+    background-image: url(drinks1/قهوه/قهوه\ تركى\ زياده.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p39{
+    background-image: url(drinks1/قهوه/قهوه\ تركى\ ساده.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p40{
+    background-image: url(drinks1/قهوه/قهوه\ تركى\ مظبوط.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p41{
+    background-image: url(drinks1/قهوه/قهوه\ ريد\ اى.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p42{
+    background-image: url(drinks1/قهوه/قهوه\ سبانش\ لاتيه.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p43{
+    background-image: url(drinks1/قهوه/قهوه\ سبانش\ لاتيه\ ايس.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p44{
+    background-image: url(drinks1/قهوه/قهوه\ شكولاته.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p45{
+    background-image: url(drinks1/قهوه/قهوه\ فانيليا.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p46{
+    background-image: url(drinks1/قهوه/قهوه\ فرنساوى.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p47{
+    background-image: url(drinks1/قهوه/قهوه\ فلات\ وايت.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p48{
+    background-image: url(drinks1/قهوه/قهوه\ كابتشينو.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p49{
+    background-image: url(drinks1/قهوه/قهوه\ كراميل.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p50{
+    background-image: url(drinks1/قهوه/قهوه\ كورتادو.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p51{
+    background-image: url(drinks1/قهوه/قهوه\ كولد\ برو.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p52{
+    background-image: url(drinks1/قهوه/قهوه\ لاتيه.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p53{
+    background-image: url(drinks1/قهوه/قهوه\ لاتيه\ بالبندق.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p54{
+    background-image: url(drinks1/قهوه/قهوه\ لاتيه\ جوز\ الهند.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p55{
+    background-image: url(drinks1/قهوه/قهوه\ لاتيه\ فانيليا.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p56{
+    background-image: url(drinks1/قهوه/قهوه\ لاتيه\ فستق\ \(2\).jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p57{
+    background-image: url(drinks1/قهوه/قهوه\ لاتيه\ قرفه.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p58{
+    background-image: url(drinks1/قهوه/قهوه\ لاتيه\ كراميل.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p59{
+    background-image: url(drinks1/قهوه/قهوه\ لونج\ بلاك.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p60{
+    background-image: url(drinks1/قهوه/قهوه\ لونجو.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p61{
+    background-image: url(drinks1/قهوه/قهوه\ ماكياتو.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p62{
+    background-image: url(drinks1/قهوه/قهوه\ موكا.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p63{
+    background-image: url(drinks1/قهوه/قهوه\ موكا\ بالنعناع.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p64{
+    background-image: url(drinks1/قهوه/قهوه\ وايت\ موكا.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p65{
+    background-image: url(drinks1/هوت/ه\ حمص\ شام.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p66{
+    background-image: url(drinks1/هوت/ه\ سحلب.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p67{
+    background-image: url(drinks1/هوت/ه\ سحلب\ قرفه.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p68{
+    background-image: url(drinks1/هوت/ه\ سحلب\ مكسرات.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p69{
+    background-image: url(drinks1/هوت/ه\ قرفه\ بالحليب.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p70{
+    background-image: url(drinks1/هوت/ه\ لبن\ بالعسل.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p71{
+    background-image: url(drinks1/هوت/ه\ وايت\ هوت\ تشوكلت.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p72{
+    background-image: url(drinks1/هوت/هوت\ تشوكلت.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p73{
+    background-image: url(drinks1/هوت/هوت\ تشوكلت\ بندق.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p74{
+    background-image: url(drinks1/هوت/هوت\ تشوكلت\ كراميل.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p75{
+    background-image: url(drinks1/هوت/هوت\ تشوكلت\ مارشميلو.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p76{
+    background-image: url(drinks2/بيبسي/غ\ بيبسى\ دايت.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p77{
+    background-image: url(drinks2/بيبسي/غ\ بيبسي.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width:160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p78{
+    background-image: url(drinks2/بيبسي/غ\ تويست.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p79{
+    background-image: url(drinks2/بيبسي/غ\ سبرايت.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p80{
+    background-image: url(drinks2/بيبسي/غ\ شويبس\ برتقال.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p81{
+    background-image: url(drinks2/بيبسي/غ\ شويبس\ خوخ.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p82{
+    background-image:url(drinks2/بيبسي/غ\ شويبس\ رمان.jpg) ;
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p83{
+    background-image: url(drinks2/بيبسي/غ\ شويبس\ سفندى.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p84{
+    background-image: url(drinks2/بيبسي/غ\ فانتا\ برتقال.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p85{
+    background-image: url(drinks2/بيبسي/غ\ فانتا\ تفاح.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p86{
+    background-image: url(drinks2/بيبسي/غ\ فانتا\ عنب.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p87{
+    background-image: url(drinks2/بيبسي/غ\ فانتا\ فراوله.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p88{
+    background-image: url(drinks2/بيبسي/غ\ كوكاكولا.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p89{
+    background-image: url(drinks2/بيبسي/غ\ كوكاكولا\ زيرو.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p90{
+    background-image: url(drinks2/بيبسي/غ\ مياه.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p91{
+    background-image: url(drinks2/بيبسي/غ\ مياه\ فواره.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p92{
+    background-image: url(drinks2/بيبسي/غ\ ميرندا\ تفاح.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p93{
+    background-image: url(drinks2/بيبسي/غ\ ميرندا\ ليمون.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p94{
+    background-image: url(drinks2/عصير/عصير\ افوكادو.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p95{
+    background-image: url(drinks2/عصير/عصير\ افوكادو\ بالعسل.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p96{
+    background-image: url(drinks2/عصير/عصير\ افوكادو\ بالمكسرات.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p97{
+    background-image: url(drinks2/عصير/عصير\ اناناس.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p98{
+    background-image: url(drinks2/عصير/عصير\ برتقال.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p99{
+    background-image: url(drinks2/عصير/عصير\ بطيخ.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p100{
+    background-image: url(drinks2/عصير/عصير\ تفاح.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p101{
+    background-image: url(drinks2/عصير/عصير\ تمر\ هندى.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p102{
+    background-image: url(drinks2/عصير/عصير\ تين\ شوكى.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p103{
+    background-image: url(drinks2/عصير/عصير\ جوافه.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p104{
+    background-image: url(drinks2/عصير/عصير\ خروب.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p105{
+    background-image: url(drinks2/عصير/عصير\ خوخ.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p106{
+    background-image: url(drinks2/عصير/عصير\ دوم.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p107{
+    background-image: url(drinks2/عصير/عصير\ رمان.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p108{
+    background-image: url(drinks2/عصير/عصير\ سوبيا.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p109{
+    background-image: url(drinks2/عصير/عصير\ عرق\ سوس.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p110{
+    background-image:url(drinks2/عصير/عصير\ عنب\ \(2\).jpg) ;
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p111{
+    background-image: url(drinks2/عصير/عصير\ فراوله.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p112{
+    background-image: url(drinks2/عصير/عصير\ قصب.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p113{
+    background-image: url(drinks2/عصير/عصير\ قصب\ بالليمون.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p114{
+    background-image: url(drinks2/عصير/عصير\ قمر\ الدين.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p115{
+    background-image: url(drinks2/عصير/عصير\ كنتالوب.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p116{
+    background-image: url(drinks2/عصير/عصير\ كوكتيل.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p118{
+    background-image: url(drinks2/عصير/عصير\ كيوى.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p119{
+    background-image: url(drinks2/عصير/عصير\ ليمون.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p120{
+    background-image: url(drinks2/عصير/عصير\ ليمون\ بالنعناع.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p121{
+    background-image: url(drinks2/عصير/عصير\ مانجه.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p122{
+    background-image: url(drinks1/موهيتو/موهيتو\ باشن\ فروت.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p123{
+    background-image: url(drinks1/موهيتو/موهيتو\ باشن\ فروت\ ومانجو.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p124{
+    background-image: url(drinks1/موهيتو/موهيتو\ برتقال.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p125{
+    background-image: url(drinks1/موهيتو/موهيتو\ بطيخ.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p126{
+    background-image: url(drinks1/موهيتو/موهيتو\ بطيخ\ ونعناع.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p127{
+    background-image: url(drinks1/موهيتو/موهيتو\ بلو.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p128{
+    background-image: url(drinks1/موهيتو/موهيتو\ توت.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p129{
+    background-image: url(drinks1/موهيتو/موهيتو\ توت\ احمر.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p130{
+    background-image: url(drinks1/موهيتو/موهيتو\ توت\ ازرق.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p131{
+    background-image: url(drinks1/موهيتو/موهيتو\ جرين\ بل.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p132{
+    background-image: url(drinks1/موهيتو/موهيتو\ خوخ.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p133{
+    background-image: url(drinks1/موهيتو/موهيتو\ خيار\ ونعناع.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p134{
+    background-image: url(drinks1/موهيتو/موهيتو\ رمان.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p135{
+    background-image: url(drinks1/موهيتو/موهيتو\ فراوله.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p136{
+    background-image: url(drinks1/ميلكشيك/ميلك\ تشيك\ شكولاته.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p137{
+    background-image: url(drinks1/ميلكشيك/ميلك\ شيك\ فانيليا.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p138{
+    background-image: url(drinks1/ميلكشيك/م\ اوريو.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p139{
+    background-image: url(drinks1/ميلكشيك/م\ باونتى.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p140{
+    background-image: url(drinks1/ميلكشيك/م\ بلو\ بيرى.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p141{
+    background-image: url(drinks1/ميلكشيك/م\ تشيز\ كيك.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p142{
+    background-image: url(drinks1/ميلكشيك/م\ تشيز\ كيك\ فراوله.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p143{
+    background-image: url(drinks1/ميلكشيك/ميلك\ تشيك\ مانجو\ تشيز\ كيك.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p144{
+    background-image: url(drinks1/ميلكشيك/م\ رافايلو.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p145{
+    background-image: url(drinks1/ميلكشيك/م\ سنيكرز.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p146{
+    background-image: url(drinks1/ميلكشيك/م\ فراوله.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p147{
+    background-image: url(drinks1/ميلكشيك/م\ فريرو\ روشيه.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p148{
+    background-image: url(drinks1/ميلكشيك/م\ فسدق.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p149{
+    background-image: url(drinks1/ميلكشيك/م\ كراميل.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p150{
+    background-image: url(drinks1/ميلكشيك/م\ كيندر.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p151{
+    background-image: url(drinks1/ميلكشيك/م\ لوتس.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p152{
+    background-image: url(drinks1/ميلكشيك/م\ مارس.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p153{
+    background-image: url(drinks1/ميلكشيك/م\ مانجو.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p154{
+    background-image: url(drinks1/ميلكشيك/م\ موز.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p155{
+    background-image: url(drinks1/ميلكشيك/م\ موز\ بالشكولاته.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p156{
+    background-image: url(drinks1/ميلكشيك/م\ نوتيلا.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p158{
+    background-image:url(drinks2/سموزى/سموزى\ افوكادو.jpg) ;
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p159{
+    background-image: url(drinks2/سموزى/سموزى\ انانس.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p160{
+    background-image: url(drinks2/سموزى/سموزى\ توت.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p161{
+    background-image: url(drinks2/سموزى/سموزى\ خوخ.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p162{
+    background-image: url(drinks2/سموزى/سموزى\ رمان.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p163{
+    background-image: url(drinks2/سموزى/سموزى\ فراوله.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p164{
+    background-image: url(drinks2/سموزى/سموزى\ كيوي.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p165{
+    background-image: url(drinks2/سموزى/سموزى\ مانجو.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p166{
+    background-image: url(drinks2/سموزى/سموزى\ مكس\ فواكه.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p167{
+    background-image: url(drinks2/سموزى/سموزى\ موز.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.b2,.b1{
+    text-align: center;
+}
+input{
+    border-radius: 10px;
+    height: 20px;
+    width: 50px;
+    margin: 10px;
+}
+button{
+    border-radius: 10px;
+    height: 25px;
+    width: 50px;
+    margin: 10px;
+    transition: .5s;
+    margin-right: 25px;
+}
+button:hover{
+    background-color: black;
+    color: white;
+    scale: 1.09;
+}
+form{
+    display: flex;
+    flex-direction:row-reverse;
+    margin-left: auto;
+    margin-right:auto ;
+}
+#breakcard{
+    transition: .5s;
+}
+#breakcard:hover{
+    scale: 1.07;
+    box-shadow: 0 8px 20px black;
+}
+.st{
+    text-align: center;
+    margin-bottom: 5px;
+}
+@media (max-width:768px){
+    .header , #i{
+        font-size: 15px;
+    }
+    #list{
+        position: absolute;
+        right: 85px;
+    }
+    #list{
+        font-size: 10px;
+    }
+    .nav ul li a{
+        font-size: 15px;
+    }
+    .nav ul li{
+        width: 70px;
+        height: fit-content;
+    }
+    .hbreak{
+        font-size: 30px;
+    }
+    .linebreak{
+        font-size: 12px;
+    }
+}
+.footer {
+    background-color: #d8b18a;
+    margin-top: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px 30px;
+    text-align: center;
+    width: 100vw;
+}
+.footer ul {
+    list-style: none;
+    margin: 0;
+}
+.footer ul li a {
+    text-decoration: none;
+    color: #4e352d;
+}
+.footer a:hover {
+    color: #be5b40e3;
+    padding-left: 10px;
+}
+.footer div {
+    display: flex;
+    flex-direction: column;
+}
+#contact-foot {
+    display: flex;
+    text-align: center;
+}
+#contact-foot p {
+    display: block;
+    margin: 0 0 5px 0;
+}
+#social-foot {
+    display: flex;
+    text-align: end;
+    text-align: center;
+}
+#social-foot a {
+    text-decoration: none;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+#social-foot a i {
+    font-size: 18px;
+    width: 25px;
+    text-align: center;
+    display: inline-block;
+}

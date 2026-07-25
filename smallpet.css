@@ -1,0 +1,734 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    text-transform: capitalize;
+    color: white;
+}
+body{
+    background-color: #fff2def5;
+}
+.picbody{
+    background-color: #6f4e37;
+}
+.header{
+  font-size: 30px;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  padding: 10px;
+}
+.nav ul{
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.nav ul li{
+    margin: 5px;
+    list-style: none;
+    border: 1px #fff2def5 solid;
+    width: 100px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    height: fit-content;
+    text-align: center;
+    transition: .5s;
+}
+.nav ul li:hover,.li:hover{
+    scale: 1.1;
+    color: #6f4e37;
+    background-color: #fff2def5;
+    border: 1px #6f4e37 solid;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: inherit;
+    font-size: 20px;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+}
+.li{
+    margin: 5px;
+    list-style: none;
+    border: 1px #fff2def5 solid;
+    width: 100px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    height: fit-content;
+    text-align: center;
+    transition: .5s;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.li a{
+    text-decoration: none;
+    color: inherit;
+    font-size: 20px;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+}
+.cath{
+    text-align: center;
+    font-size: 60px;
+    font-family: "Playfair Display", serif;
+   font-optical-sizing: auto;
+   font-weight: weight;
+}
+.cath p{
+    color: #6f4e37;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.c1{
+    height: 360px;
+    width: 220px;
+    border: 1px #6f4e37 solid;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: .5s;
+    margin: 8px;
+    background-color: #fdf8f3;
+}
+.c1:hover{
+    scale: 1.02;
+    box-shadow: 5px 5px 5px #6f4e37;
+}
+.img0{
+    background-image: url(small/الهامستر\ السورى.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    margin: 9px;
+    border-radius: 20px;
+}
+.img1{
+    background-image: url(small/الهامستر\ القزم.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    margin: 9px;
+    border-radius: 20px;
+}
+.img2{
+    background-image: url(small/هامستر\ روبوروفسكى.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    margin: 9px;
+    border-radius: 20px;
+}
+.img3{
+    background-image: url(small/هامستر\ كانبل.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    margin: 9px;
+    border-radius: 20px;
+}
+.img4{
+    background-image: url(small/هامستر\ وينتر\ وايت.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    margin: 9px;
+    border-radius: 20px;
+}
+.img5{
+    background-image: url(small/ارنب\ هولاند\ لوب.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    margin: 9px;
+    border-radius: 20px;
+}
+.img6{
+    background-image: url(small/ارنب\ مينى\ ريكس.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    margin: 9px;
+    border-radius: 20px;
+}
+.img7{
+    background-image: url(small/الارنب\ الهولندى\ القزم.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    margin: 9px;
+    border-radius: 20px;
+}
+.img8{
+    background-image: url(small/ارنب\ راس\ الاسد.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    margin: 9px;
+    border-radius: 20px;
+}
+.img9{
+    background-image: url(small/الارنب\ الفلمنكى\ العملاق.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    margin: 9px;
+    border-radius: 20px;
+}
+.img10{
+    background-image: url(small/الفار\ المنزلى\ الاليف.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    margin: 9px;
+    border-radius: 20px;
+}
+.img11{
+    background-image: url(small/الجرز\ الاليف.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    margin: 9px;
+    border-radius: 20px;
+}
+.img12{
+    background-image: url(small/خنزير\ غينيا.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    margin: 9px;
+    border-radius: 20px;
+}
+.img13{
+    background-image: url(small/خنزير\ غينيا\ البيروفى.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    margin: 9px;
+    border-radius: 20px;
+}
+.img14{
+    background-image: url(small/خنزير\ غينيا\ الحبشى.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    margin: 9px;
+    border-radius: 20px;
+}
+.img15{
+    background-image: url(small/القنفذ\ الافريقى\ القزم.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    margin: 9px;
+    border-radius: 20px;
+}
+.img16{
+    background-image: url(small/السكر\ جلايدر.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    margin: 9px;
+    border-radius: 20px;
+}
+.img17{
+    background-image: url(small/الشنشيلا.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    margin: 9px;
+    border-radius: 20px;
+}
+.img18{
+    background-image: url(small/النمس\ الاليف.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    margin: 9px;
+    border-radius: 20px;
+}
+.img19{
+    background-image: url(small/ديجو.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    margin: 9px;
+    border-radius: 20px;
+}
+.img20{
+    background-image: url(small/ارنب\ انجلش\ لوب.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    margin: 9px;
+    border-radius: 20px;
+}
+.img21{
+    background-image: url(small/ارنب\ فرنش\ لوب.jpg);
+    background-position:top ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    margin: 9px;
+    border-radius: 20px;
+}
+.img22{
+    background-image: url(small/ارنب\ مينى\ لوب.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    margin: 9px;
+    border-radius: 20px;
+}
+.img23{
+    background-image: url(small/الارنب\ الكاليفورنى.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    margin: 9px;
+    border-radius: 20px;
+}
+.img24{
+    background-image: url(small/الارنب\ الهولندى.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    margin: 9px;
+    border-radius: 20px;
+}
+.img25{
+    background-image: url(small/ارنب\ الانغورا.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    margin: 9px;
+    border-radius: 20px;
+}
+.img26{
+    background-image: url(small/خنزير\ غينيا\ تيدى.jpg);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    margin: 9px;
+    border-radius: 20px;
+}
+.img27{
+    background-image: url(small/خنزير\ غينيا\ الامريكى.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    margin: 9px;
+    border-radius: 20px;
+}
+.img28{
+    background-image: url(small/خنزير\ غينيا\ تيكسل.jpg);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    margin: 9px;
+    border-radius: 20px;
+}
+.img29{
+    background-image: url(small/خنزير\ غينيا\ عديم\ الشعر.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    margin: 9px;
+    border-radius: 20px;
+}
+.img30{
+    background-image: url(small/فار\ النوم\ الافريقى.jpg);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    margin: 9px;
+    border-radius: 20px;
+}
+.img31{
+    background-image: url(small/الجربوع\ المنزلى.jpg);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    margin: 9px;
+    border-radius: 20px;
+}
+.img32{
+    background-image: url(small/الجربوع\ المنغولى.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    margin: 9px;
+    border-radius: 20px;
+}
+.img33{
+    background-image: url(small/القنفذ\ طويل\ الاذن.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    margin: 9px;
+    border-radius: 20px;
+}
+.img34{
+    background-image: url(small/السنجاب\ الطائر.jpg);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    margin: 9px;
+    border-radius: 20px;
+}
+.img35{
+    background-image: url(small/الفار\ الافريقى\ القزم.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    margin: 9px;
+    border-radius: 20px;
+}
+.img36{
+    background-image: url(small/كلب\ البرارى.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    margin: 9px;
+    border-radius: 20px;
+}
+.img37{
+    background-image: url(small/السنجاب\ المخطط.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    margin: 9px;
+    border-radius: 20px;
+}
+.img38{
+    background-image: url(small/التينريك.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    margin: 9px;
+    border-radius: 20px;
+}
+.img39{
+    background-image: url(small/الشنشيلا\ الرماديه.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    margin: 9px;
+    border-radius: 20px;
+}
+.img40{
+    background-image: url(small/ارنب\ ساتين.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    margin: 9px;
+    border-radius: 20px;
+}
+.img41{
+    background-image: url(small/ارنب\ هايلوكورت\ \ .jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    margin: 9px;
+    border-radius: 20px;
+}
+.img42{
+    background-image: url(small/ارنب\ الهيمالايا.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    margin: 9px;
+    border-radius: 20px;
+}
+.img43{
+    background-image: url(small/الارنب\ البولندى.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    margin: 9px;
+    border-radius: 20px;
+}
+.img44{
+    background-image: url(small/ارنب\ جيرسي\ وولى.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    margin: 9px;
+    border-radius: 20px;
+}
+.img45{
+    background-image: url(small/خنزير\ غينيا\ ريكس.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    margin: 9px;
+    border-radius: 20px;
+}
+.img46{
+    background-image: url(small/خنزير\ غينيا\ سيلكى.jpg);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    margin: 9px;
+    border-radius: 20px;
+}
+.img47{
+    background-image: url(small/خنزير\ غينيا\ الباكا.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    margin: 9px;
+    border-radius: 20px;
+}
+.img48{
+    background-image: url(small/سنجاب\ ريتشاردسون\ الارضى\ .jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    margin: 9px;
+    border-radius: 20px;
+}
+.img49{
+    background-image: url(small/الفار\ الافريقي\ المخطط.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    margin: 9px;
+    border-radius: 20px;
+}
+.p1,.p2,.p3{
+    color: #6f4e37;
+    margin: 3px;
+    text-align: center;
+}
+.b{
+    background-color:transparent ;
+    color: #6f4e37;
+    padding: 3px;
+    border-radius: 5px;
+    width: 100px;
+    display: block;
+    margin: 5px auto;
+    transition: .5s;
+    border: 1px #6f4e37 solid;
+}
+.b:hover{
+    scale: 1.08;
+    background-color: #6f4e37;
+    color: #fff2def5;
+    border: 1px #fff2def5 solid;
+}
+@media (max-width:768px) {
+    .nav ul{
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.nav ul li{
+    margin: 5px;
+    list-style: none;
+    border: 1px #fff2def5 solid;
+    width: 100px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    height: fit-content;
+    text-align: center;
+    transition: .5s;
+}
+.nav ul li:hover,.li:hover{
+    scale: 1.1;
+    color: #6f4e37;
+    background-color: #fff2def5;
+    border: 1px #6f4e37 solid;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: inherit;
+    font-size: 13px;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+}
+.li{
+    margin: 5px;
+    list-style: none;
+    border: 1px #fff2def5 solid;
+    width: 100px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    height: fit-content;
+    text-align: center;
+    transition: .5s;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.li a{
+    text-decoration: none;
+    color: inherit;
+    font-size: 13px;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+}
+}
+.footer {
+    background-color: #d8b18a;
+    margin-top: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px 30px;
+    color: #4e352d;
+}
+.footer ul {
+    list-style: none;
+    margin: 0;
+}
+.footer ul li a {
+    text-decoration: none;
+    color: #4e352d;
+}
+.footer a:hover {
+    color: #be5b40e3;
+    padding-left: 10px;
+}
+.footer div {
+    display: flex;
+    flex-direction: column;
+}
+#contact-foot {
+    display: flex;
+    text-align: center;
+}
+#contact-foot p {
+    display: block;
+    margin: 0 0 5px 0;
+}
+#social-foot {
+    display: flex;
+    text-align: end;
+    text-align: center;
+}
+#social-foot a {
+    text-decoration: none;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+#social-foot a i {
+    font-size: 18px;
+    width: 25px;
+    text-align: center;
+    display: inline-block;
+}

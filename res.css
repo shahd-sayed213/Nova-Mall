@@ -1,0 +1,419 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    text-transform: capitalize;
+    color:rgb(0, 0, 0);
+}
+body{
+    background-color: #fff2def5;
+}
+.back{
+    background-image:url(homep/الهوم.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.header{
+    margin: 20px;
+    display: inline-block;
+    font-size: 25px;
+    width: fit-content;
+    color: white;
+    font-family: "Pacifico", cursive;
+    animation: header forwards 1s ease ;
+    position: absolute;
+}
+@keyframes header {
+    from{
+        opacity: 0;
+        top:-10px ;
+    }
+    to{
+        opacity: 1;
+        top: 10px;
+    }
+}
+#list{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50px;
+    right: 114px;
+    transition: .5s;
+    animation: list forwards 1s ease ;
+}
+@keyframes list {
+    from{
+        opacity: 0;
+        top:-10px ;
+    }
+    to{
+        opacity: 1;
+        top: 50px;
+    }
+}
+#list:hover{
+    scale: 1.1;
+}
+#i{
+    font-size: 30px;
+    margin-right: 15px;
+    color: white;
+}
+.nav{
+    display: flex;
+    flex-direction: row-reverse;
+    animation: nav forwards 1s ease ;
+    position: relative;
+    top: 70px;
+
+}
+@keyframes nav {
+    from{
+        visibility: hidden;
+        right:-10px ;
+    }
+    to{
+        visibility: visible;
+        right: 10px;
+    }
+}
+.nav ul{
+    list-style: none;
+    z-index: 3;
+}
+.nav ul li{
+    color: inherit;
+    margin: 15px;
+    backdrop-filter: blur(20px);
+    border: 1px #878787 solid;
+    padding: 7px;
+    border-radius: 10px;
+    transition: .5s;
+    text-align: center;
+    right: 5%;
+    width: 100px;
+      font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: italic;
+}
+.nav ul li:hover {
+    scale: 1.2;
+}
+.img:hover,.img1:hover,.img2:hover,.img3:hover,.img4:hover,.img5:hover,.img6:hover{
+scale: 1.02;
+    box-shadow: 0 8px 20px black;
+}
+.nav ul li a{
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+.body{
+    text-align: center;
+    background-color:transparent;
+    backdrop-filter: blur(10px);
+    margin-left:auto;
+    margin-right:auto;
+    width: 250px;
+    height: 250px;
+    border-radius: 125px;
+    transition: .5s;
+    border: 1px solid white;
+}
+.body:hover{
+    rotate:y 360deg;
+}
+.bbody{
+    position: relative;
+    right: 20px;
+    bottom: 100px;
+    margin: 10px;
+    z-index: 1;
+    animation: bbody forwards 1s ease ;
+}
+@keyframes bbody {
+    from{
+        opacity: 0;
+        bottom:-10px ;
+    }
+    to{
+        opacity: 1;
+        bottom: 50px;
+    }
+}
+.p1{
+    padding: 30px;
+    font-size:14px;
+    color: white;
+}
+.p2{
+    padding: 20px;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+.p3{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    margin: 10px;
+    margin-top: 10px;
+    color: white;
+}
+.p4{
+    text-align: center;
+    font-size: 20px;
+    margin: 10px;
+    color: white;
+}
+.linebreak{
+    text-align: center;
+    font-size: 20px;
+    margin: 10px;
+}
+.img{
+    background-image:url(homep/عننا.jpg);
+    height: 350px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: .5s;
+}
+.p5,.p8{
+    text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
+    margin: 20px;
+    letter-spacing: 2px;
+}
+.p6,.p9{
+    text-align: center;
+    font-size: 20px;
+    margin: 10px;
+}
+.p7{
+text-align: left;
+font-size: 20px;
+width: 500px;
+margin: 20px;
+line-height: 30px;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+ background-color: #fdf8f3;
+ border-radius: 20px;
+ padding: 10px;
+
+}
+.img1{
+    background-image: url('homep/محشي.png');
+    height: 350px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: .5s;
+
+}
+.img2{
+    background-image: url('homep/كشرى.png');
+    height: 350px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+    background-repeat: no-repeat;
+    transition: .5s;
+    background-size: cover;
+}
+.img3{
+    background-image: url('homep/مسقعه.jpg');
+    height: 350px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+    background-repeat: no-repeat;
+    transition: .5s;
+    background-size: cover;
+}
+.img4{
+    background-image: url('homep/ملوخيه.png');
+    height: 350px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+    background-repeat: no-repeat;
+    transition: .5s;
+    background-size: cover;
+}
+.img5{
+    background-image: url('homep/طعميه.jpg');
+    height: 350px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+    background-repeat: no-repeat;
+    transition: .5s;
+    background-size: cover;
+}
+.img6{
+    background-image: url('homep/كنافه.jpg');
+    height: 350px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+    background-repeat: no-repeat;
+    transition: .5s;
+    background-size: cover;
+}
+.p10 , .p12 ,.p14,.p16,.p18,.p20{
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 30px;
+    color: black;
+    text-align: center;
+}
+.p11 , .p13 ,.p15,.p17,.p19,.p21{
+    line-height: 25px;
+    font-size: 20px;
+    color: black;
+    padding: 10px;
+    text-align: center;
+}
+
+.img1p , .img2p , .img3p ,.img4p,.img5p,.img6p{
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 10px;
+        width: 500px;
+        background-color: #fdf8f3;
+ border-radius: 20px;
+ padding: 10px;
+}
+@media (max-width:768px){
+    .header , #i{
+        font-size: 15px;
+    }
+    #list{
+        position: absolute;
+        right: 85px;
+    }
+    #list{
+        font-size: 10px;
+    }
+    .nav ul li a{
+        font-size: 15px;
+    }
+    .nav ul li{
+        width: 70px;
+        height: fit-content;
+    }
+    .p2,.p3,.p4{
+        font-size: 15px;
+    }
+    .p1{
+        font-size: 8px;
+    }
+    .body{
+        width: 150px;
+        height: 150px;
+    }
+    .p2{
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    padding: 0px;
+    }
+    .img1p , .img2p , .img3p ,.img4p,.img5p,.img6p,.p7{
+    width: 300px;
+    }
+    .p11 , .p13 ,.p15,.p17,.p19,.p21,.p10 , .p12 ,.p14,.p16,.p18,.p20{
+        font-size: 20px;
+    }
+    .img,.img1,.img2,.img3,.img4,.img5,.img6{
+        width: 300px;
+        background-position: center;
+    }
+}
+.footer {
+    background-color: #d8b18a;
+    margin-top: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px 30px;
+}
+
+.footer ul {
+    list-style: none;
+    margin: 0;
+}
+
+.footer ul li a {
+    text-decoration: none;
+    color: #4e352d;
+}
+
+.footer a:hover {
+    color: #be5b40e3;
+    padding-left: 10px;
+}
+
+.footer div {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact-foot {
+    display: flex;
+    text-align: center;
+}
+
+#contact-foot p {
+    display: block;
+    margin: 0 0 5px 0;
+}
+
+#social-foot {
+    display: flex;
+    text-align: end;
+    text-align: center;
+}
+
+#social-foot a {
+    text-decoration: none;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+#social-foot a i {
+    font-size: 18px;
+    width: 25px;
+    text-align: center;
+    display: inline-block;
+}

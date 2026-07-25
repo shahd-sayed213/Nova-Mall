@@ -1,0 +1,219 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    text-transform: capitalize;
+    color: white;
+}
+body{
+    background-color: #fff2def5;
+}
+.picbody{
+    background-color: #6f4e37;
+}
+.header{
+  font-size: 30px;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  padding: 10px;
+}
+.nav ul{
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.nav ul li{
+    margin: 5px;
+    list-style: none;
+    border: 1px #fff2def5 solid;
+    width: 100px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    height: fit-content;
+    text-align: center;
+    transition: .5s;
+}
+.nav ul li:hover,.li:hover{
+    scale: 1.1;
+    color: #6f4e37;
+    background-color: #fff2def5;
+    border: 1px #6f4e37 solid;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: inherit;
+    font-size: 20px;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+}
+.li{
+    margin: 5px;
+    list-style: none;
+    border: 1px #fff2def5 solid;
+    width: 100px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    height: fit-content;
+    text-align: center;
+    transition: .5s;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.li a{
+    text-decoration: none;
+    color: inherit;
+    font-size: 20px;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+}
+.cath{
+    text-align: center;
+    font-size: 60px;
+    font-family: "Playfair Display", serif;
+   font-optical-sizing: auto;
+   font-weight: weight;
+}
+.cath p{
+    color: #6f4e37;
+}
+.catf{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.c1{
+    border: 1px #6f4e37 solid;
+    width: 300px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    transition: .5s;
+    background-color: #fdf8f3;
+}
+.c1:hover{
+    scale: 1.05;
+    box-shadow: 5px 5px 5px #6f4e37;
+}
+.p1,.p2,.st{
+    margin: 10px;
+    color: #6f4e37;
+}
+.bt{
+    background-color: transparent;
+    color: #6f4e37;
+    padding: 3px;
+    margin: 10px;
+}
+@media (max-width:768px) {
+    .nav ul{
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.nav ul li{
+    margin: 5px;
+    list-style: none;
+    border: 1px #fff2def5 solid;
+    width: 100px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    height: fit-content;
+    text-align: center;
+    transition: .5s;
+}
+.nav ul li:hover,.li:hover{
+    scale: 1.1;
+    color: #6f4e37;
+    background-color: #fff2def5;
+    border: 1px #6f4e37 solid;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: inherit;
+    font-size: 13px;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+}
+.li{
+    margin: 5px;
+    list-style: none;
+    border: 1px #fff2def5 solid;
+    width: 100px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    height: fit-content;
+    text-align: center;
+    transition: .5s;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.li a{
+    text-decoration: none;
+    color: inherit;
+    font-size: 13px;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+}
+}
+.footer {
+    background-color: #d8b18a;
+    margin-top: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px 30px;
+    color: #4e352d;
+}
+.footer ul {
+    list-style: none;
+    margin: 0;
+}
+.footer ul li a {
+    text-decoration: none;
+    color: #4e352d;
+}
+.footer a:hover {
+    color: #be5b40e3;
+    padding-left: 10px;
+}
+.footer div {
+    display: flex;
+    flex-direction: column;
+}
+#contact-foot {
+    display: flex;
+    text-align: center;
+}
+#contact-foot p {
+    display: block;
+    margin: 0 0 5px 0;
+}
+#social-foot {
+    display: flex;
+    text-align: end;
+    text-align: center;
+}
+#social-foot a {
+    text-decoration: none;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+#social-foot a i {
+    font-size: 18px;
+    width: 25px;
+    text-align: center;
+    display: inline-block;
+}
