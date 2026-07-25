@@ -620,12 +620,20 @@ main {
     }
 
 
-    .dropdown-menu {
-        display: none !important;
+    .drop-menu {
+        display: none;
+        position: static;
+        width: 100%;
+        background: #d8b18a;
+        box-shadow: none;
     }
 
-    .dropdown:focus-within .dropdown-menu {
-        display:block;
+    .main-menu:hover .drop-menu {
+        display: none;
+    }
+
+    .main-menu:focus-within .drop-menu {
+        display: block;
     }
 
     .nav a {
@@ -635,8 +643,9 @@ main {
     .nav ul {
         gap: 4px;
     }
-.icons{
-    display: none !important;
-}
+
+    .icons {
+        display: none !important;
+    }
 
 }
