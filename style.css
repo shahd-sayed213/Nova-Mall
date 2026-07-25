@@ -505,6 +505,21 @@ main {
 /*Mobile */
 
 @media (max-width:768px) {
+    .drop-menu {
+        display: none;
+        position: static;
+        width: 100%;
+        background: #d8b18a;
+        box-shadow: none;
+    }
+
+    .main-menu:hover .drop-menu {
+        display: none;
+    }
+
+    .main-menu:focus-within .drop-menu {
+        display: block !important;
+    }
 
     main {
         flex-direction: column;
