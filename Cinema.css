@@ -115,6 +115,9 @@ button:hover {
     background: #b20710;
 }
 
+
+
+/*
 .footer {
     background-color: #d8b18a;
     margin-top: 20px;
@@ -176,7 +179,7 @@ button:hover {
     text-align: center;
     display: inline-block;
 }
-
+*/
 
 
 @media (max-width: 768px) {
@@ -190,8 +193,19 @@ button:hover {
         padding: 1px;
         margin: 0px;
     }
+}
 
-    .footer {
+
+
+
+
+
+
+
+
+
+
+   /* .footer {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -227,7 +241,7 @@ button:hover {
         justify-content: center;
         margin-right: 0;
     }
-}
+}*/
 
 @media (min-width:769px) and (max-width:1300px) {
     nav {
