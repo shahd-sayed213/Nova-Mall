@@ -378,7 +378,6 @@ body {
     transform: translateY(-50%);
     color: #888;
     font-size: 10px;
-    display: none !important;
 }
     .icons button {
     height: 20px;
@@ -386,6 +385,9 @@ body {
     background-color: #d8b18a;
     border: none;
     cursor: pointer;
+}
+.icons{
+    display: none !important;
 }
 
 .nav ul{
@@ -542,6 +544,9 @@ from {
 #social-foot a {
     justify-content: center;
     margin-right: 0;
+}
+
+.icons{display: none !important;
 }
 
 
