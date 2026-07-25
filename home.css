@@ -378,8 +378,7 @@ body {
     transform: translateY(-50%);
     color: #888;
     font-size: 10px;
-    display: none;
-    visibility: hidden !important;
+    display: none !important;
 }
     .icons button {
     height: 20px;
