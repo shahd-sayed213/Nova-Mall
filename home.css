@@ -379,6 +379,7 @@ body {
     color: #888;
     font-size: 10px;
     display: none;
+    visibility: hidden !important;
 }
     .icons button {
     height: 20px;
