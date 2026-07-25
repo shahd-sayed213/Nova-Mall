@@ -168,7 +168,7 @@ section>div:first-child {
     display: flex;
     text-align: end;
     text-align: center;
-    padding-left: 65px;
+    padding-left:0;
 }
 
 #social-foot a {
@@ -178,7 +178,7 @@ section>div:first-child {
     display: flex;
     align-items: center;
     gap: 2px;
-    padding-left: 25px;
+    padding-left:0;
 }
 
 #social-foot a i {
@@ -522,7 +522,7 @@ section>div:first-child {
 
     #social-foot a {
         justify-content: center;
-        margin-right: 20px;
+        margin-right:0;
     }
 
     .icons {
