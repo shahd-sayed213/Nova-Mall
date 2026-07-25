@@ -333,7 +333,7 @@ body {
     display: flex;
     align-items:center;
     gap: 2px;
-    padding-left:45px;
+    padding-left:0px;
 }
 #social-foot a i {
     font-size: 18px;
