@@ -1,0 +1,598 @@
+
+/* log in */
+
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 80vh;
+    padding: 60px 80px;
+    gap: 70px;
+}
+
+.logintext {
+    flex: 1;
+}
+
+.logintext h2 {
+    font-size: 42px;
+    color: #413108;
+    margin-bottom: 20px;
+    font-family: serif;
+    text-align: left;
+}
+
+.logintext p {
+    font-size: 19px;
+    font-family: serif;
+    line-height: 1.8;
+    color: #2c2010;
+    max-width: 500px;
+    font-style: italic;
+}
+
+.login {
+    flex: 1;
+    max-width: 400px;
+    background: #ddd0b0e9;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, .15);
+}
+
+.login h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #8b6508;
+}
+
+.input-box {
+    margin-bottom: 20px;
+}
+
+.input-box input {
+    width: 100%;
+    padding: 14px;
+    border: 1px solid #cbaf9f;
+    border-radius: 10px;
+    outline: none;
+    font-size: 16px;
+    box-sizing: border-box;
+    transition: .3s;
+}
+
+.input-box input:focus {
+    border-color: #402a23;
+    box-shadow: 0 0 8px rgba(139, 101, 8, .3);
+}
+
+.form-footer button {
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-radius: 10px;
+    background: #402a23;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    transition: .3s;
+}
+.form-footer button:hover{
+    background: #6d4f06;
+}
+
+/* Signup */
+
+.form-footer p {
+    margin-top: 18px;
+    text-align: center;
+    color: #666;
+}
+
+.form-footer a {
+    color: #8b6508;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.form-footer a:hover {
+    text-decoration: underline;
+}
+
+
+/* About  */
+.story-img img{
+    border-radius: 15px;
+    object-fit: cover;
+    width: 100%;
+    display: block;
+    margin-top: 50px;
+}
+.our-story p{
+    color:#402a23;
+    line-height: 1.8;
+    font-family: serif;
+    margin-bottom: 10px;
+    font-style:italic ;
+}
+
+.story-img{
+    width: 45%;
+    margin-left: 15px;
+}
+
+.our-story{
+    width: 55% ;
+    margin: 50px;
+    font-family: serif;
+    font-weight: 550;
+}
+
+.about{
+    display: flex;
+    align-items: center;
+    justify-self: space-between;
+    width: 100%;
+}
+
+.ooo{
+    text-align: center;
+    font-family: serif;
+    font-style: italic;
+}
+.hero{
+    text-align: left;
+    font-family: serif;
+    font-style: italic;
+}
+
+.conc{
+    color: #402a23;
+    text-align: center;
+    height: 50;
+    font-family: serif;
+    font-weight: bold;
+    margin-top: 40px;
+    font-size: 19px;
+}
+
+/* jewelry */
+.jewelry-home {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+    padding: 60px 80px;
+}
+
+.text {
+    flex: 1;
+}
+
+.text p:first-child {
+    font-size: 36px;
+    font-weight: bold;
+    color: #8b6508;
+    margin-bottom: 20px;
+}
+
+.text p {
+    font-size: 19px;
+    line-height: 1.8;
+    color: #3d2d17;
+    font-style: italic;
+    font-family:serif;
+}
+.text h2{
+    font-weight: bold;
+    font-size: 30px;
+    font-family: serif;
+    font-style: italic;
+    color: #3d2d17;
+}
+
+.jewelry-page-img {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.jewelry-page-img img {
+    width: 600px;
+    max-width: 100%;
+    height: 500px;
+    border-radius: 30px;
+    box-shadow:0 10px 20px rgba(15, 14, 14, 0.25);
+    margin-top: 40px;
+}
+
+/* Jewelry section*/
+
+.container_of_jewelry{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    
+}
+
+h2{
+    text-align: center;
+    font-family: serif;
+    font-size: 20px;
+    padding: 10px;
+    color: #402a23;
+    margin-top: 40px;
+    font-size: 30px;
+}
+.jewelry-card{
+    border-radius: 15px;
+    width: 220px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(58, 36, 24, 0.875);
+    font-family: Arial, sans-serif;
+    background: #f8edd4;;
+    padding: 15px;
+}
+.jewelry-card:hover{
+    transform: scale(1.02);
+    transition: 0.3s;
+}
+.jewelry-img{
+    width:100% ;
+    height:250px ;
+    object-fit: cover;
+    border-radius: 15px;
+}
+.jewelry-content{
+    padding: 20px;
+}
+.stars{
+    counter-reset: gold;
+    font-size: 15px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.price{
+    font-size: 20px;
+    font-weight: bold;
+    color: #402a23;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.buy-btn{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background:#402a23;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.buy-btn:hover {
+    background: #8b6508;
+}
+
+/* Contact us */
+
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 80vh;
+    padding: 60px 80px;
+    gap: 70px;
+}
+
+.get {
+    flex: 1;
+}
+
+.get h1 {
+    font-size: 40px;
+    color: #413108;
+    margin-bottom: 10px;
+}
+
+.get p {
+    font-size: 20px;
+    font-family: serif;
+    font-style: italic;
+    color: #402a23;
+    line-height: 2;
+
+}
+.contact-form {
+    flex: 1;
+    max-width: 450px;
+    background: #ddd0b0e9;
+    padding: 35px;
+    border-radius: 20px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, .15);
+}
+
+.contact-form div {
+    margin-bottom: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    outline: none;
+    font-size: 16px;
+    box-sizing: border-box;
+    transition: .3s;;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-color: #8b6508;
+    box-shadow: 0 0 8px rgba(139, 101, 8, .3);
+}
+
+.contact-form textarea {
+    resize: none;
+}
+
+.contact-form button {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    background: #413108;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.contact-form button:hover {
+    background:#6d4f06;
+}
+.footer {
+    background-color: #d8b18a;
+    margin-top: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px 30px;
+}
+.footer ul {
+    list-style: none;
+    margin: 0;
+}
+.footer ul li a {
+    text-decoration: none;
+    color: #4e352d;
+}
+.footer a:hover {
+    color: #be5b40e3;
+    padding-left: 10px;
+}
+.footer div {
+    display: flex;
+    flex-direction: column;
+}
+#contact-foot {
+    display: flex;
+    text-align: center;
+}
+#contact-foot p {
+    display: block;
+    margin: 0 0 5px 0;
+}
+#social-foot {
+    display: flex;
+    text-align: end;
+    text-align: center;
+}
+#social-foot a {
+    text-decoration: none;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+#social-foot a i {
+    font-size: 18px;
+    width: 25px;
+    text-align: center;
+    display: inline-block;
+}
+
+
+
+/* Tablet */
+
+@media (max-width:992px) {
+
+    main {
+        flex-direction: column;
+        padding: 40px 30px;
+        text-align: center;
+    }
+
+    .login,
+    .contact-form {
+        width: 100%;
+        max-width: 500px;
+    }
+
+    .logintext,
+    .get {
+        text-align: center;
+    }
+
+    .logintext p,
+    .get p {
+        max-width: 100%;
+    }
+
+    .about {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .story-img,
+    .our-story {
+        width: 100%;
+        margin: 20px auto;
+    }
+
+    .jewelry-home {
+        flex-direction: column;
+        padding: 40px 30px;
+        text-align: center;
+    }
+
+    .text {
+        width: 100%;
+    }
+
+    .jewelry-page-img {
+        justify-content: center;
+    }
+
+    .jewelry-page-img img {
+        width: 90%;
+        height: auto;
+    }
+
+    .container_of_jewelry {
+        justify-content: center;
+    }
+
+    .footer {
+        flex-wrap: wrap;
+        gap: 30px;
+        justify-content: center;
+        text-align: center;
+    }
+
+}
+
+/*Mobile */
+
+@media (max-width:768px) {
+
+    main {
+        flex-direction: column;
+        padding: 25px 15px;
+        gap: 30px;
+    }
+
+    .login {
+        width: 100%;
+        padding: 25px;
+    }
+
+    .contact-form {
+        width: 100%;
+        padding: 25px;
+    }
+
+    .logintext h2 {
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .logintext p {
+        font-size: 17px;
+        text-align: center;
+    }
+
+    .get h1 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .get p {
+        text-align: center;
+        font-size:17px;
+    }
+
+    .about {
+        flex-direction: column-reverse;
+    }
+
+    .story-img {
+        width: 100%;
+        margin: 0;
+    }
+
+    .story-img img {
+        width: 100%;
+        height: auto;
+    }
+
+    .our-story {
+        width: 100%;
+        margin: 20px;
+    }
+
+    .jewelry-home {
+        flex-direction: column;
+        padding: 20px;
+        gap: 20px;
+    }
+
+    .text h2 {
+        font-size: 28px;
+    }
+
+    .text p {
+        font-size: 17px;
+        text-align: center;
+    }
+
+    .jewelry-page-img img {
+        width: 100%;
+        height: 500px;
+        margin-top: 5px;
+    }
+
+    .jewelry-card {
+        width: 90%;
+        max-width: 320px;
+    }
+
+}
+
+/*Small Phone */
+
+@media (max-width:480px) {
+
+    .logintext h2,
+    .get h1,
+    .text h2 {
+        font-size: 24px;
+    }
+
+    .logintext p,
+    .get p,
+    .text p {
+        font-size: 15px;
+    }
+
+    .login,
+    .contact-form {
+        padding: 20px;
+    }
+
+    .jewelry-card {
+        width: 100%;
+    }
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+}
